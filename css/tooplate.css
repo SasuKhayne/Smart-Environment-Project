@@ -357,6 +357,26 @@ input[type="checkbox"]:focus {
   box-shadow: none;
 }
 
+input[type="radio"] {
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+  border: 1px solid black;
+  box-sizing: border-box;
+  position: relative;
+  box-sizing: content-box;
+  width: 12px;
+  height: 12px;
+  transition: all 0.1s linear;
+}
+input[type="radio"]:checked {
+  background-color: #9f1321;
+}
+input[type="radio"]:focus {
+  outline: 0 none;
+  box-shadow: none;
+}
+
 .tm-trash-icon {
   color: #6e6c6c;
   cursor: pointer;
